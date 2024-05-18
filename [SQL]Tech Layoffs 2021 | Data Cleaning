@@ -1,1 +1,8 @@
+-- SQL - Data Cleaning Project
+-- Dataset https://www.kaggle.com/datasets/swaptr/layoffs-2022
+
+-- Step 0: Creating stagging table
+
+CREATE TABLE layoffs_staging
+LIKE layoffs;
 
